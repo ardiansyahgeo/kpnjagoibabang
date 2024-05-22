@@ -549,7 +549,7 @@ new ol.layer.Group({
             title: 'Usulan Deliniasi',
             fold: 'open',
             layers: [
-lyr_Alternatif3_7,lyr_Alternatif2_8,lyr_Alternatif1_9,
+lyr_Alternatif2_8,lyr_Alternatif1_9,
 ]}),
 
 new ol.layer.Group({
