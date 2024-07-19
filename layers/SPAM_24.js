@@ -1,0 +1,1 @@
+var json_SPAM_24 = {"type":"FeatureCollection","name":"SPAM_24","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"SUMBER":"Survey Lapang","Keterangan":"SPAM Jagoi Babang"},"geometry":{"type":"Point","coordinates":[109.962197729321289,1.322097283180088]}}]}

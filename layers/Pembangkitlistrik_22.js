@@ -1,0 +1,1 @@
+var json_Pembangkitlistrik_22 = {"type":"FeatureCollection","name":"Pembangkitlistrik_22","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"Id":0.0,"keterangan":"Pembangkit Listrik Tenaga Surya"},"geometry":{"type":"Point","coordinates":[110.004952531118747,1.232074671191244]}}]}
