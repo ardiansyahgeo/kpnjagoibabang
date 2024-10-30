@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+     			<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<div class="topnav">
+<a class="active" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6O5VeD9wnox9vDojOj9wPkG2pD0Ng2Kn_y-P5mmQ8dVmrWkZ2ZmYIRRWAcU1xBQ/pubhtml">ITBX</a>
+  <a href="3D.html">3D SIMPANG TAKE-PLBN</a>
+<a  href="https://ee.kobotoolbox.org/x/GPjdFZMa">SAMPAIKAN ASPIRASI ANDA</a>
+
+</div>
+		
+		
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 98%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title>RDTR KPN JAGOIBABANG</title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/KawasanHutan_2.js"></script><script src="layers/HAT_3.js"></script><script src="layers/LP2B_4.js"></script><script src="layers/KONSEPPOLARUANG_5.js"></script><script src="layers/Infrastrukturtransportasi_6.js"></script><script src="layers/JaringanTransportasi_7.js"></script><script src="layers/infrastrukturairminum_8.js"></script><script src="layers/jaringanairminum_9.js"></script><script src="layers/Limbah_10.js"></script><script src="layers/JaringanDrainase_11.js"></script><script src="layers/InfrastrukturDrainase_12.js"></script><script src="layers/JaringanEnergi_13.js"></script><script src="layers/InfrastrukturEnergi_14.js"></script><script src="layers/InfrastukturTelekomunikasi_15.js"></script><script src="layers/InfrastrukturPersampahan_16.js"></script><script src="layers/JaringanPrasaranaLainnya_17.js"></script><script src="layers/InfrastrukturPrasaranaLainnya_18.js"></script><script src="layers/PusatPelayanan_19.js"></script><script src="layers/SWP_BLOK_20.js"></script><script src="layers/BatasDesa_21.js"></script><script src="layers/TOPONIMI_22.js"></script><script src="layers/VIDEO_DRONE_23.js"></script>
+        <script src="styles/KawasanHutan_2_style.js"></script><script src="styles/HAT_3_style.js"></script><script src="styles/LP2B_4_style.js"></script><script src="styles/KONSEPPOLARUANG_5_style.js"></script><script src="styles/Infrastrukturtransportasi_6_style.js"></script><script src="styles/JaringanTransportasi_7_style.js"></script><script src="styles/infrastrukturairminum_8_style.js"></script><script src="styles/jaringanairminum_9_style.js"></script><script src="styles/Limbah_10_style.js"></script><script src="styles/JaringanDrainase_11_style.js"></script><script src="styles/InfrastrukturDrainase_12_style.js"></script><script src="styles/JaringanEnergi_13_style.js"></script><script src="styles/InfrastrukturEnergi_14_style.js"></script><script src="styles/InfrastukturTelekomunikasi_15_style.js"></script><script src="styles/InfrastrukturPersampahan_16_style.js"></script><script src="styles/JaringanPrasaranaLainnya_17_style.js"></script><script src="styles/InfrastrukturPrasaranaLainnya_18_style.js"></script><script src="styles/PusatPelayanan_19_style.js"></script><script src="styles/SWP_BLOK_20_style.js"></script><script src="styles/BatasDesa_21_style.js"></script><script src="styles/TOPONIMI_22_style.js"></script><script src="styles/VIDEO_DRONE_23_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
