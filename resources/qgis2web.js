@@ -939,7 +939,7 @@ map.addControl(bottomAttribution);
 
 var attributionList = document.createElement('li');
 attributionList.innerHTML = `
-	<a ">Pembaharuan Terakhir: 30/10/2024</a> &middot;
+	<a ">Pembaharuan Terakhir: 11/11/2024</a> &middot;
 
 `;
 bottomAttribution.element.appendChild(attributionList);
